@@ -24,7 +24,7 @@ def twoplayer():
     runpy.run_path("tictactoefor2.py")
 
 space = Label(text="", bg="#FF944D", font="Arial 30").pack(pady=1)
-space = Label(text="Tic Taco Toe", bg="#FF944D", font="Arial 30").pack()
+space = Label(text="Tic Tac Toe", bg="#FF944D", font="Arial 30").pack()
 credit = Label(text="By Somil Govani", bg="#FF944D", font="Arial 15").pack(pady=20)
 One = Button(text="One Player Game", width = 20, command=oneplayer)
 One.pack(pady=20)
